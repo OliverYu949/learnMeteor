@@ -5,7 +5,7 @@ describe("simple-todos", function () {
     const { name } = await import("../package.json");
     assert.strictEqual(name, "simple-todos");
   });
-
+     //sfsd
   if (Meteor.isClient) {
     it("client is not server", function () {
       assert.strictEqual(Meteor.isServer, false);
